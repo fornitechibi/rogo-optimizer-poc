@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><title>probe</title></head><body style="font-family:monospace;background:#111;color:#0f0;padding:24px">
+<h2 id="t">JS NOT EXECUTED</h2>
+<script>
+document.getElementById('t').textContent = 'JS EXECUTED ON ORIGIN: ' + location.origin;
+document.title = 'XSS-PROOF:' + location.origin;
+var c = 'cookies:' + JSON.stringify(document.cookie);
+var d = document.createElement('div'); d.textContent = c; document.body.appendChild(d);
+</script>
+</body></html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="480" height="300" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#f5f6f5" rx="12"/>
+  <rect width="480" height="56" fill="#0d2f24" rx="12"/>
+  <text x="24" y="36" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">ACME Capital — Security Notice</text>
+  <text x="24" y="96" fill="#333" font-family="Arial" font-size="14">Your session expired on a shared workstation.</text>
+  <text x="24" y="118" fill="#333" font-family="Arial" font-size="14">Re-verify your credentials to retain deal-room access.</text>
+  <a href="https://fornitechibi.github.io/rogo-optimizer-poc/caught.html">
+    <rect x="24" y="150" width="220" height="44" fill="#2d6a4f" rx="6"/>
+    <text x="60" y="178" fill="#fff" font-family="Arial" font-size="15" font-weight="bold">Re-verify identity →</text>
+  </a>
+  <script type="text/javascript"><![CDATA[
+    var t = document.createElementNS("http://www.w3.org/2000/svg","text");
+    t.setAttribute("x","24"); t.setAttribute("y","240");
+    t.setAttribute("fill","#b00"); t.setAttribute("font-family","Arial"); t.setAttribute("font-size","13");
+    t.textContent = "SVG SCRIPT EXECUTED ON: " + location.origin;
+    document.documentElement.appendChild(t);
+  ]]></script>
+</svg>
